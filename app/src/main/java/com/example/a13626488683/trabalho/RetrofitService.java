@@ -16,6 +16,6 @@ public interface RetrofitService {
 
 
     @GET("posts/{id}")
-    Call<RespostaServidor> converterUnidade(@Path("id") Integer id);
+    Call<RespostaServidor> converterUnidade(@Path("id") String id);
 
 }
